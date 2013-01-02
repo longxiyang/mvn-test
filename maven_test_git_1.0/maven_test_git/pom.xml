@@ -3,21 +3,22 @@
 	
 	<groupId>org.lxy</groupId>
 	<artifactId>maven_test</artifactId>
-	<version>1.2</version>
+	<version>1.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>maven_test</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-        <project.scm.id>my-svn-server</project.scm.id>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <project.scm.id>my-git-server</project.scm.id>
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<scm>
-		<url>http://localhost/svn4/permtest/tags/maven_test-1.2</url>
-		<connection>scm:svn:http://localhost/svn4/permtest/tags/maven_test-1.2</connection>
-	</scm>
+		<url>https://github.com/longxiyang/mvn-test.git</url>
+		<connection>scm:git:https://github.com/longxiyang/mvn-test.git</connection>
+	  <tag>HEAD</tag>
+  </scm>
 
 	<dependencies>
 		<dependency>
