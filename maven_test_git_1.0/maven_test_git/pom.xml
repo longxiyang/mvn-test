@@ -3,7 +3,7 @@
 	
 	<groupId>org.lxy</groupId>
 	<artifactId>maven_test</artifactId>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.8-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>maven_test</name>
